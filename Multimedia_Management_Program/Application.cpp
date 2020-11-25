@@ -336,7 +336,6 @@ int Application::OpenOutFile(char *fileName) {
 
 // Open a file as a read mode, Read all data on the file, and Set list by the data.
 int Application::ReadDataFromFile() {
-	int index = 0;
 	MultimediaContent mainContent;	// 읽기용 임시 변수
 	
 	char filename[FILENAMESIZE];

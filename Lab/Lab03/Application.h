@@ -9,7 +9,6 @@ using namespace std;
 #include "Event.h"
 
 #include "UnsortedList.h"
-#include "SortedList.h"
 #include "CircularQue.h"
 
 #define FILENAMESIZE 1024

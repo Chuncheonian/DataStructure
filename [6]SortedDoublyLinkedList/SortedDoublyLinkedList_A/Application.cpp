@@ -198,9 +198,8 @@ int Application::OpenOutFile(char *fileName) {
 }
 
 // 읽기 위한 파일을 열어 파일에 있는 모든 데이터를 불러오고 데이터들로 리스트를 만든다.
-int Application::ReadDataFromFile()
-{
-	int index = 0;
+int Application::ReadDataFromFile() {
+
 	ItemType data;	// 읽기용 임시 변수
 	
 	char filename[FILENAMESIZE];
@@ -228,8 +227,7 @@ int Application::ReadDataFromFile()
 }
 
 // 쓰기 위한 파일을 열어 리스트의 모든 정보들을 저장한다.
-int Application::WriteDataToFile()
-{
+int Application::WriteDataToFile() {
 	ItemType data;	// 쓰기용 임시 변수
 
 	char filename[FILENAMESIZE];

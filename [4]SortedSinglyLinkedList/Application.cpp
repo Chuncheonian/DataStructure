@@ -176,7 +176,6 @@ int Application::OpenOutFile(char *fileName) {
 
 // Open a file as a read mode, read all data on the file, and set list by the data.
 int Application::ReadDataFromFile() {       // case 7
-	int index = 0;
 	ItemType data;	// 읽기용 임시 변수
 	
 	char filename[FILENAMESIZE];
